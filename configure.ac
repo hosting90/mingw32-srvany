@@ -1,5 +1,6 @@
-# RHSrvAny - Turn any Windows program into a Windows service.
-# Written by Yuval Kashtan.
+# SrvAny - Turn any Windows program into a Windows service.
+# Written by Stanislav Petr, based on work Yuval Kashtan.
+# Copyright (C) 2013 HOSTING90 systems s.r.o.
 # Copyright (C) 2010 Red Hat Inc.
 #
 # This program is free software; you can redistribute it and/or modify
@@ -21,7 +22,7 @@
 # the Fedora Windows cross-compiler and invoke 'mingw32-configure'
 # instead of the normal './configure' command.
 
-AC_INIT([RHSrvAny],[1.0.0])
+AC_INIT([SrvAny],[1.0.0])
 AM_INIT_AUTOMAKE([foreign])
 
 AC_PROG_CC_STDC

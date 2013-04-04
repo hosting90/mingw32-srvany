@@ -1,5 +1,6 @@
-rem RHSrvAny - Turn any Windows program into a Windows service.
-rem Written by Yuval Kashtan.
+rem SrvAny - Turn any Windows program into a Windows service.
+rem Written by Stanislav Petr, based on work Yuval Kashtan.
+rem Copyright (C) 2013 HOSTING90 systems s.r.o.
 rem Copyright (C) 2010 Red Hat Inc.
 rem
 rem This program is free software; you can redistribute it and/or modify

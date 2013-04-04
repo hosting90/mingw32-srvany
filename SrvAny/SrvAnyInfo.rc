@@ -69,13 +69,13 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "CompanyName", "Red Hat Inc."
-            VALUE "FileDescription", "Red Hat Service Application"
+            VALUE "CompanyName", "HOSTING90 systems s.r.o."
+            VALUE "FileDescription", "Virtualization guest provisioning service application"
             VALUE "FileVersion", "1, 0, 0, 1"
-            VALUE "InternalName", "RHSrvAny"
-            VALUE "LegalCopyright", "Copyright (C) 2010 Red Hat Inc."
-            VALUE "OriginalFilename", "RHSrvAny.exe"
-            VALUE "ProductName", "Red Hat SrvAny"
+            VALUE "InternalName", "SrvAny"
+            VALUE "LegalCopyright", "Copyright (C) 2013 HOSTING90 systems s.r.o."
+            VALUE "OriginalFilename", "SrvAny.exe"
+            VALUE "ProductName", "SrvAny"
             VALUE "ProductVersion", "1, 0, 0, 1"
         END
     END

@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="RHSrvAny"
+	Name="SrvAny"
 	ProjectGUID="{D495A542-2328-44AC-AFD8-CA29D415FA16}"
-	RootNamespace="RHSrvAny"
+	RootNamespace="SrvAny"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -173,11 +173,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\RHSrvAny.c"
+				RelativePath=".\SrvAny.c"
 				>
 			</File>
 			<File
-				RelativePath=".\RHSrvAny.mc"
+				RelativePath=".\SrvAny.mc"
 				>
 			</File>
 		</Filter>
@@ -191,7 +191,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\RHSrvAny.h"
+				RelativePath=".\SrvAny.h"
 				>
 			</File>
 		</Filter>
@@ -201,7 +201,7 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 			<File
-				RelativePath=".\RHSrvAnyInfo.rc"
+				RelativePath=".\SrvAnyInfo.rc"
 				>
 			</File>
 		</Filter>

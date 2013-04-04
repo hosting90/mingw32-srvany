@@ -5,14 +5,14 @@
 %define __find_provides %{_mingw32_findprovides}
 
 Name:		mingw32-srvany
-Version:	1.0.0
+Version:	1.0.1
 Release:	1%{?dist}
 Summary:	Utility for creating services for Windows
 
 Group:		Development/Libraries
 License:	BSD
-URL:		http://github.com/rwmjones/rhsrvany
-Source0:	rhsrvany-%{version}.tar.gz
+URL:		http://github.com/glux/mingw32-srvany32
+Source0:	mingw32-srvany-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:	noarch
 
@@ -28,7 +28,7 @@ BuildRequires:	mingw32-binutils
 Utility for creating a service from any MinGW Windows binary
 
 %prep
-%setup -q -n rhsrvany-%{version}
+%setup -q -n mingw32-srvany-%{version}
 
 %build
 %{_mingw32_configure} 
@@ -43,8 +43,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%{_mingw32_bindir}/rhsrvany.exe
+%{_mingw32_bindir}/srvany.exe
 
 %changelog
+* Thu Apr 04 2013 Stanislav Petr <glux@glux.org> - 1.0.1-1
+
 * Mon Sep 13 2010 Andrew Beekhof <andrew@beekhof.net> - 1.0.0-1
 - Initial build.

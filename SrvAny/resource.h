@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by RHSrvAnyInfo.rc
+// Used by SrvAnyInfo.rc
 //
 
 // Next default values for new objects

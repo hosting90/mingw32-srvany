@@ -1,6 +1,7 @@
 /* -*- Mode: C; tab-width: 4 -*- */
-/* RHSrvAny - Turn any Windows program into a Windows service.
- * Written by Yuval Kashtan.
+/* SrvAny - Turn any Windows program into a Windows service.
+ * Written by Stanislav Petr, based on work Yuval Kashtan.
+ * Copyright (C) 2013 HOSTING90 systems s.r.o.
  * Copyright (C) 2010 Red Hat Inc.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -42,7 +43,7 @@
 
 #define DIMOF(a)	((int) (sizeof(a)/sizeof(a[0])) )
 
-LPCTSTR SVCNAME = TEXT("RHSrvAny");
+LPCTSTR SVCNAME = TEXT("SrvAny");
 
 SERVICE_STATUS gSvcStatus; 
 HANDLE ghSvcStopEvent = NULL;
@@ -104,7 +105,7 @@ main (int argc, char **a_argv)
     TCHAR **argv;
 	argv = CommandLineToArgvW (GetCommandLineW (), &argc);
 
-	if( strcmp( "rhsrvany.exe", basename(a_argv[0]) ) != 0 ) {
+	if( strcmp( "srvany.exe", basename(a_argv[0]) ) != 0 ) {
 		char *name = strdup(basename(a_argv[0]));
 		int lpc = strlen(name);
 		for (; lpc >= 0; lpc--) {

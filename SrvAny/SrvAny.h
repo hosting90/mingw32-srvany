@@ -1,6 +1,7 @@
 /* -*- Mode: C; tab-width: 4 -*- */
-/* RHSrvAny - Turn any Windows program into a Windows service.
- * Written by Yuval Kashtan.
+/* SrvAny - Turn any Windows program into a Windows service.
+ * Written by Stanislav Petr, based on work Yuval Kashtan.
+ * Copyright (C) 2013 HOSTING90 systems s.r.o.
  * Copyright (C) 2010 Red Hat Inc.
  *
  * This program is free software; you can redistribute it and/or modify
